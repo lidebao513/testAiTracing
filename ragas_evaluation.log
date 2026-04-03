@@ -1,0 +1,156 @@
+2026-04-03 22:56:08,839 - __main__ - INFO - ✅ 已加载环境变量文件: C:\Users\69037\Documents\trae_projects\testAiTracing\.env
+2026-04-03 22:56:08,839 - __main__ - INFO - ✅ LANGCHAIN_API_KEY: lsv2_pt_5f...
+2026-04-03 22:56:08,839 - __main__ - INFO - ✅ LANGCHAIN_TRACING_V2: true
+2026-04-03 22:56:08,839 - __main__ - INFO - ✅ LANGCHAIN_PROJECT: my_first_project
+2026-04-03 22:56:08,839 - __main__ - WARNING - ⚠️ 缺少以下环境变量:
+  - LANGCHAIN_ENDPOINT (LangSmith服务端点)
+2026-04-03 22:56:08,839 - __main__ - INFO - 请确保.env文件包含所有必需的配置
+2026-04-03 22:56:08,841 - __main__ - ERROR - ❌ 环境变量加载失败，请检查.env文件配置
+2026-04-03 22:58:16,599 - __main__ - INFO - ✅ 已加载环境变量文件: C:\Users\69037\Documents\trae_projects\testAiTracing\.env
+2026-04-03 22:58:16,599 - __main__ - INFO - ✅ 已兼容LANGSMITH_ENDPOINT到LANGCHAIN_ENDPOINT
+2026-04-03 22:58:16,599 - __main__ - INFO - ✅ LANGCHAIN_API_KEY: lsv2_pt_5f...
+2026-04-03 22:58:16,599 - __main__ - INFO - ✅ LANGCHAIN_TRACING_V2: true
+2026-04-03 22:58:16,599 - __main__ - INFO - ✅ LANGCHAIN_PROJECT: my_first_project
+2026-04-03 22:58:16,599 - __main__ - INFO - ✅ LANGCHAIN_ENDPOINT: https://api.smith.langchain.com
+2026-04-03 22:58:16,599 - __main__ - INFO - ✅ LangSmith跟踪已启用
+2026-04-03 22:58:21,948 - __main__ - INFO - 📦 RAGAS版本: 0.4.3
+2026-04-03 22:58:22,204 - __main__ - INFO - ✅ 所有模块导入成功
+2026-04-03 22:58:22,206 - __main__ - INFO - ✅ 使用RAGAS 0.4.x指标导入方式
+2026-04-03 22:58:22,207 - __main__ - INFO - ✅ LangSmith客户端初始化成功
+2026-04-03 22:58:22,207 - __main__ - INFO -    项目: my_first_project
+2026-04-03 22:58:22,207 - __main__ - INFO -    端点: https://api.smith.langchain.com
+2026-04-03 22:58:22,207 - __main__ - INFO - 📊 正在创建评估数据集...
+2026-04-03 22:58:22,212 - __main__ - INFO - ✅ 评估数据集创建成功: 5 条记录
+2026-04-03 22:58:22,212 - __main__ - INFO -    字段: ['question', 'contexts', 'answer', 'ground_truth']
+2026-04-03 22:58:22,213 - __main__ - INFO - 🔧 正在配置评估指标...
+2026-04-03 22:58:22,214 - __main__ - WARNING -    ⚠️ answer_relevancy 配置失败: 'AnswerRelevancy' object is not callable
+2026-04-03 22:58:22,214 - __main__ - WARNING -    ⚠️ context_precision 配置失败: 'ContextPrecision' object is not callable
+2026-04-03 22:58:22,214 - __main__ - WARNING -    ⚠️ context_recall 配置失败: 'ContextRecall' object is not callable
+2026-04-03 22:58:22,214 - __main__ - WARNING -    ⚠️ faithfulness 配置失败: 'Faithfulness' object is not callable
+2026-04-03 22:58:22,214 - __main__ - ERROR - 
+❌ 脚本执行出错: 没有可用的评估指标，请检查RAGAS安装
+2026-04-03 22:58:22,214 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\69037\Documents\trae_projects\testAiTracing\ragas_with_langsmith.py", line 510, in main
+    metrics = setup_metrics(metrics_dict)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\69037\Documents\trae_projects\testAiTracing\ragas_with_langsmith.py", line 303, in setup_metrics
+    raise ValueError("没有可用的评估指标，请检查RAGAS安装")
+ValueError: 没有可用的评估指标，请检查RAGAS安装
+
+2026-04-03 23:00:29,872 - __main__ - INFO - ✅ 已加载环境变量文件: C:\Users\69037\Documents\trae_projects\testAiTracing\.env
+2026-04-03 23:00:29,873 - __main__ - INFO - ✅ 已兼容LANGSMITH_ENDPOINT到LANGCHAIN_ENDPOINT
+2026-04-03 23:00:29,873 - __main__ - INFO - ✅ LANGCHAIN_API_KEY: lsv2_pt_5f...
+2026-04-03 23:00:29,873 - __main__ - INFO - ✅ LANGCHAIN_TRACING_V2: true
+2026-04-03 23:00:29,873 - __main__ - INFO - ✅ LANGCHAIN_PROJECT: my_first_project
+2026-04-03 23:00:29,873 - __main__ - INFO - ✅ LANGCHAIN_ENDPOINT: https://api.smith.langchain.com
+2026-04-03 23:00:29,874 - __main__ - INFO - ✅ LangSmith跟踪已启用
+2026-04-03 23:00:35,075 - __main__ - INFO - 📦 RAGAS版本: 0.4.3
+2026-04-03 23:00:35,334 - __main__ - INFO - ✅ 所有模块导入成功
+2026-04-03 23:00:35,335 - __main__ - INFO - ✅ 使用RAGAS 0.4.x指标导入方式（实例对象）
+2026-04-03 23:00:35,337 - __main__ - INFO - ✅ LangSmith客户端初始化成功
+2026-04-03 23:00:35,337 - __main__ - INFO -    项目: my_first_project
+2026-04-03 23:00:35,338 - __main__ - INFO -    端点: https://api.smith.langchain.com
+2026-04-03 23:00:35,339 - __main__ - INFO - 📊 正在创建评估数据集...
+2026-04-03 23:00:35,341 - __main__ - INFO - ✅ 评估数据集创建成功: 5 条记录
+2026-04-03 23:00:35,342 - __main__ - INFO -    字段: ['question', 'contexts', 'answer', 'ground_truth']
+2026-04-03 23:00:35,342 - __main__ - INFO - 🔧 正在配置评估指标...
+2026-04-03 23:00:35,342 - __main__ - INFO -    ✅ answer_relevancy
+2026-04-03 23:00:35,342 - __main__ - INFO -    ✅ context_precision
+2026-04-03 23:00:35,342 - __main__ - INFO -    ✅ context_recall
+2026-04-03 23:00:35,342 - __main__ - INFO -    ✅ faithfulness (附加指标)
+2026-04-03 23:00:35,342 - __main__ - INFO - ✅ 成功配置 4 个评估指标
+2026-04-03 23:00:35,795 - __main__ - INFO - ✅ Ollama LLM初始化成功
+2026-04-03 23:00:35,797 - __main__ - INFO - 
+🚀 开始执行RAGAS评估...
+2026-04-03 23:00:35,797 - __main__ - INFO -    数据集大小: 5 条记录
+2026-04-03 23:00:35,797 - __main__ - INFO -    评估指标数: 4 个
+2026-04-03 23:00:48,628 - openai._base_client - INFO - Retrying request to /chat/completions in 0.401625 seconds
+2026-04-03 23:00:59,045 - openai._base_client - INFO - Retrying request to /chat/completions in 0.762678 seconds
+2026-04-03 23:01:19,837 - openai._base_client - INFO - Retrying request to /chat/completions in 0.497816 seconds
+2026-04-03 23:01:30,344 - openai._base_client - INFO - Retrying request to /chat/completions in 0.947189 seconds
+2026-04-03 23:01:51,327 - openai._base_client - INFO - Retrying request to /chat/completions in 0.420961 seconds
+2026-04-03 23:02:01,770 - openai._base_client - INFO - Retrying request to /chat/completions in 0.911704 seconds
+2026-04-03 23:02:22,711 - openai._base_client - INFO - Retrying request to /chat/completions in 0.391305 seconds
+2026-04-03 23:02:33,119 - openai._base_client - INFO - Retrying request to /chat/completions in 0.975011 seconds
+2026-04-03 23:02:54,136 - openai._base_client - INFO - Retrying request to /chat/completions in 0.411682 seconds
+2026-04-03 23:03:04,560 - openai._base_client - INFO - Retrying request to /chat/completions in 0.860379 seconds
+2026-04-03 23:03:25,450 - openai._base_client - INFO - Retrying request to /chat/completions in 0.384772 seconds
+2026-04-03 23:03:35,852 - openai._base_client - INFO - Retrying request to /chat/completions in 0.753704 seconds
+2026-04-03 23:03:56,667 - openai._base_client - INFO - Retrying request to /chat/completions in 0.409631 seconds
+2026-04-03 23:04:07,087 - openai._base_client - INFO - Retrying request to /chat/completions in 0.881822 seconds
+2026-04-03 23:04:28,003 - openai._base_client - INFO - Retrying request to /chat/completions in 0.468842 seconds
+2026-04-03 23:04:38,485 - openai._base_client - INFO - Retrying request to /chat/completions in 0.996537 seconds
+2026-04-03 23:04:59,520 - openai._base_client - INFO - Retrying request to /chat/completions in 0.383084 seconds
+2026-04-03 23:05:09,912 - openai._base_client - INFO - Retrying request to /chat/completions in 0.779039 seconds
+2026-04-03 23:05:30,711 - openai._base_client - INFO - Retrying request to /chat/completions in 0.444776 seconds
+2026-04-03 23:05:41,170 - openai._base_client - INFO - Retrying request to /chat/completions in 0.778819 seconds
+2026-04-03 23:06:01,992 - openai._base_client - INFO - Retrying request to /chat/completions in 0.409724 seconds
+2026-04-03 23:06:12,420 - openai._base_client - INFO - Retrying request to /chat/completions in 0.977753 seconds
+2026-04-03 23:06:33,423 - openai._base_client - INFO - Retrying request to /chat/completions in 0.445000 seconds
+2026-04-03 23:06:43,894 - openai._base_client - INFO - Retrying request to /chat/completions in 0.986596 seconds
+2026-04-03 23:07:04,902 - openai._base_client - INFO - Retrying request to /chat/completions in 0.385983 seconds
+2026-04-03 23:07:15,312 - openai._base_client - INFO - Retrying request to /chat/completions in 0.857565 seconds
+2026-04-03 23:07:36,212 - openai._base_client - INFO - Retrying request to /chat/completions in 0.453859 seconds
+2026-04-03 23:07:46,676 - openai._base_client - INFO - Retrying request to /chat/completions in 0.851301 seconds
+2026-04-03 23:08:07,562 - openai._base_client - INFO - Retrying request to /chat/completions in 0.444483 seconds
+2026-04-03 23:08:18,019 - openai._base_client - INFO - Retrying request to /chat/completions in 0.855788 seconds
+2026-04-03 23:08:38,903 - openai._base_client - INFO - Retrying request to /chat/completions in 0.479600 seconds
+2026-04-03 23:08:49,387 - openai._base_client - INFO - Retrying request to /chat/completions in 0.934116 seconds
+2026-04-03 23:09:10,358 - openai._base_client - INFO - Retrying request to /chat/completions in 0.495110 seconds
+2026-04-03 23:09:20,868 - openai._base_client - INFO - Retrying request to /chat/completions in 0.842960 seconds
+2026-04-03 23:09:41,744 - openai._base_client - INFO - Retrying request to /chat/completions in 0.395146 seconds
+2026-04-03 23:09:52,149 - openai._base_client - INFO - Retrying request to /chat/completions in 0.921047 seconds
+2026-04-03 23:10:13,108 - openai._base_client - INFO - Retrying request to /chat/completions in 0.470794 seconds
+2026-04-03 23:10:23,588 - openai._base_client - INFO - Retrying request to /chat/completions in 0.828832 seconds
+2026-04-03 23:10:44,463 - openai._base_client - INFO - Retrying request to /chat/completions in 0.414713 seconds
+2026-04-03 23:10:54,894 - openai._base_client - INFO - Retrying request to /chat/completions in 0.774581 seconds
+2026-04-03 23:11:15,714 - openai._base_client - INFO - Retrying request to /chat/completions in 0.406347 seconds
+2026-04-03 23:11:26,142 - openai._base_client - INFO - Retrying request to /chat/completions in 0.975393 seconds
+2026-04-03 23:11:47,144 - openai._base_client - INFO - Retrying request to /chat/completions in 0.493422 seconds
+2026-04-03 23:11:57,643 - openai._base_client - INFO - Retrying request to /chat/completions in 0.942120 seconds
+2026-04-03 23:12:18,620 - openai._base_client - INFO - Retrying request to /chat/completions in 0.398031 seconds
+2026-04-03 23:12:29,037 - openai._base_client - INFO - Retrying request to /chat/completions in 0.972291 seconds
+2026-04-03 23:12:50,052 - openai._base_client - INFO - Retrying request to /chat/completions in 0.375476 seconds
+2026-04-03 23:13:00,440 - openai._base_client - INFO - Retrying request to /chat/completions in 0.976099 seconds
+2026-04-03 23:13:21,467 - openai._base_client - INFO - Retrying request to /chat/completions in 0.418970 seconds
+2026-04-03 23:13:31,910 - openai._base_client - INFO - Retrying request to /chat/completions in 0.804042 seconds
+2026-04-03 23:13:52,752 - openai._base_client - INFO - Retrying request to /chat/completions in 0.443135 seconds
+2026-04-03 23:14:03,209 - openai._base_client - INFO - Retrying request to /chat/completions in 0.771461 seconds
+2026-04-03 23:14:24,002 - openai._base_client - INFO - Retrying request to /chat/completions in 0.437124 seconds
+2026-04-03 23:14:34,450 - openai._base_client - INFO - Retrying request to /chat/completions in 0.975243 seconds
+2026-04-03 23:14:55,474 - openai._base_client - INFO - Retrying request to /chat/completions in 0.454739 seconds
+2026-04-03 23:15:05,950 - openai._base_client - INFO - Retrying request to /chat/completions in 0.914220 seconds
+2026-04-03 23:15:26,899 - openai._base_client - INFO - Retrying request to /chat/completions in 0.475737 seconds
+2026-04-03 23:15:37,385 - openai._base_client - INFO - Retrying request to /chat/completions in 0.765411 seconds
+2026-04-03 23:15:58,189 - openai._base_client - INFO - Retrying request to /chat/completions in 0.479981 seconds
+2026-04-03 23:16:08,685 - openai._base_client - INFO - Retrying request to /chat/completions in 0.857537 seconds
+2026-04-03 23:16:29,576 - openai._base_client - INFO - Retrying request to /chat/completions in 0.486300 seconds
+2026-04-03 23:16:40,076 - openai._base_client - INFO - Retrying request to /chat/completions in 0.923272 seconds
+2026-04-03 23:17:01,042 - openai._base_client - INFO - Retrying request to /chat/completions in 0.453003 seconds
+2026-04-03 23:17:11,526 - openai._base_client - INFO - Retrying request to /chat/completions in 0.948461 seconds
+2026-04-03 23:17:32,501 - openai._base_client - INFO - Retrying request to /chat/completions in 0.384341 seconds
+2026-04-03 23:17:42,909 - openai._base_client - INFO - Retrying request to /chat/completions in 0.992195 seconds
+2026-04-03 23:18:03,941 - openai._base_client - INFO - Retrying request to /chat/completions in 0.495119 seconds
+2026-04-03 23:18:14,450 - openai._base_client - INFO - Retrying request to /chat/completions in 0.920376 seconds
+2026-04-03 23:18:35,424 - openai._base_client - INFO - Retrying request to /chat/completions in 0.397358 seconds
+2026-04-03 23:18:45,834 - openai._base_client - INFO - Retrying request to /chat/completions in 0.902372 seconds
+2026-04-03 23:19:06,775 - openai._base_client - INFO - Retrying request to /chat/completions in 0.406133 seconds
+2026-04-03 23:19:17,208 - openai._base_client - INFO - Retrying request to /chat/completions in 0.755814 seconds
+2026-04-03 23:19:37,993 - openai._base_client - INFO - Retrying request to /chat/completions in 0.480128 seconds
+2026-04-03 23:19:48,493 - openai._base_client - INFO - Retrying request to /chat/completions in 0.916442 seconds
+2026-04-03 23:20:09,466 - openai._base_client - INFO - Retrying request to /chat/completions in 0.491050 seconds
+2026-04-03 23:20:19,974 - openai._base_client - INFO - Retrying request to /chat/completions in 0.992994 seconds
+2026-04-03 23:20:40,993 - openai._base_client - INFO - Retrying request to /chat/completions in 0.461763 seconds
+2026-04-03 23:20:51,460 - openai._base_client - INFO - Retrying request to /chat/completions in 0.864296 seconds
+2026-04-03 23:21:12,367 - openai._base_client - INFO - Retrying request to /chat/completions in 0.491835 seconds
+2026-04-03 23:21:22,875 - openai._base_client - INFO - Retrying request to /chat/completions in 0.845788 seconds
+2026-04-03 23:21:43,756 - openai._base_client - INFO - Retrying request to /chat/completions in 0.458891 seconds
+2026-04-03 23:21:54,226 - openai._base_client - INFO - Retrying request to /chat/completions in 0.880648 seconds
+2026-04-03 23:22:15,174 - openai._base_client - INFO - Retrying request to /chat/completions in 0.400263 seconds
+2026-04-03 23:22:25,597 - openai._base_client - INFO - Retrying request to /chat/completions in 0.924414 seconds
+2026-04-03 23:22:46,557 - openai._base_client - INFO - Retrying request to /chat/completions in 0.422429 seconds
+2026-04-03 23:22:56,985 - openai._base_client - INFO - Retrying request to /chat/completions in 0.891148 seconds
+2026-04-03 23:23:17,900 - openai._base_client - INFO - Retrying request to /chat/completions in 0.410431 seconds
+2026-04-03 23:23:28,325 - openai._base_client - INFO - Retrying request to /chat/completions in 0.931675 seconds
+2026-04-03 23:23:49,292 - openai._base_client - INFO - Retrying request to /chat/completions in 0.487697 seconds
+2026-04-03 23:23:59,792 - openai._base_client - INFO - Retrying request to /chat/completions in 0.844076 seconds
