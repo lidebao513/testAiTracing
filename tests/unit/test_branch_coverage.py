@@ -12,7 +12,11 @@
 import pytest
 import sys
 import os
-from environment_validator import validate_environment
+
+# 添加项目根目录到Python路径
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
+from src.evaluation.environment_validator import validate_environment
 
 
 class TestValidateEnvironment:
